@@ -1,10 +1,27 @@
+'<Maze. An amazingly challenging puzzle for you to solve>
+'Copyright (C) <2014>  <Navin Ipe>
+'Contact: navinipe at gmail dot com
+
+'This program is free software: you can redistribute it and/or modify
+'it under the terms of the GNU General Public License as published by
+'the Free Software Foundation, either version 3 of the License, or
+'(at your option) any later version.
+
+'This program is distributed in the hope that it will be useful,
+'but WITHOUT ANY WARRANTY; without even the implied warranty of
+'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+'GNU General Public License for more details.
+
+'You should have received a copy of the GNU General Public License
+'along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 10 DIA = 2: CLS : SCREEN 2: SCREEN 0, 0, 0: KEY OFF: COLOR 10
 60 DIM M1(23, 80), M2(22, 80), M3(22, 80), M4(23, 80)
 70 GOSUB 1670: GOSUB 4150: COLOR 14
 80 LOCATE 9, 41: PRINT "M A Z E"
 90 LOCATE 10, 40: PRINT "~~~~~~~~~": COLOR 10
 100 LOCATE 12, 38: PRINT "L O A D I N G"
-110 LOCATE 13, 38: PRINT "ÄÄÄÄÄÄÄÄÄÄÄÄÄ": COLOR 5
+110 LOCATE 13, 38: PRINT "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½": COLOR 5
 120 LOCATE 14, 29: PRINT "SCREEN", "ROW", "COLOUMN"
 130 LOCATE 17, 23: PRINT "To be loaded : 4 Screens"
 140 LOCATE 18, 38: PRINT "23 Rows for each screen"
@@ -162,10 +179,10 @@
 1660 '---
 1670 'INTRODUCTION
 1680 '---
-1690 CLS : COLOR 14: LOCATE 2, 5: PRINT "M A Z E": PRINT STRING$(80, "Ä")
+1690 CLS : COLOR 14: LOCATE 2, 5: PRINT "M A Z E": PRINT STRING$(80, "ï¿½")
 1700 COLOR 28: LOCATE 4, 60: PRINT "By Navin.K.Ipe"
 1710 COLOR 10: PRINT "     I N T R O D U C T I O N"
-1720 PRINT "     " + STRING$(40, "Ä")
+1720 PRINT "     " + STRING$(40, "ï¿½")
 1730 PRINT "     In this game,you will have to find"
 1740 PRINT "        your way through a maze.The game"
 1750 PRINT "         will be over when you get into a"
@@ -175,7 +192,7 @@
 1790 PRINT "             the screen individually.So,don't get MAZED."
 1800 COLOR 13: PRINT "   <<You can press enter to see where in the Maze you are>>"
 1810 COLOR 6: PRINT " These are some things you will find."
-1820 PRINT STRING$(36, "Ä")
+1820 PRINT STRING$(36, "ï¿½")
 1830 PRINT "     O  - This portal will transport you to different places."
 1840 PRINT "  "; CHR$(27); CHR$(24); CHR$(26); CHR$(25); "  - These Highways will take you to various sections of the Maze"
 1850 PRINT "    "; CHR$(4); "   - This is the diamond you have to collect."
