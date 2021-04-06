@@ -1,3 +1,4 @@
+If you observe the gif for a while, you'll be shown various parts of the maze, as the character traverses it.
 ![Alt text](images/mazeAnimated.gif)
 
 Maze
